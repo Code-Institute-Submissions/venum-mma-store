@@ -1,0 +1,478 @@
+[
+  {
+    "pk": 1,
+    "model": "products.product",
+    "fields": {
+      "sku": "VENUM-03757-539",
+      "name": "Venum Cargo T-shirt - Black/Green",
+      "description": "The Cargo t-shirt is simple and elegant. It is nonetheless original: its contrasting yoke located at the shoulders and its zipped chest pocket make it a unique piece in the Venum universe.",
+      "price": 32.99 ,
+      "category": 2,
+      "rating": 4.6,
+      "image_url": "https://euro.venum.com/media/catalog/product/cache/3d6373dfdbd8bf7042581a31874a0831/1/a/1af14c15e0e054da5f3993bfd918bd10264ce0f4_TS_CARGO_BLACK_KHAKI_SD_01.jpg",
+      "image": "VENUM-03757-539.jpg"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "products.product",
+    "fields": {
+      "sku": "VENUM-03757-109",
+      "name": "Venum T-shirt - Black",
+      "description": "Cargo t-shirt is simple and elegant. It is nonetheless original: its contrasting yoke located at the shoulders and its zipped chest pocket make it a unique piece in the Venum universe.",
+      "price": 35.99 ,
+      "category": 2,
+      "rating": 4.6,
+      "image_url": "https://euro.venum.com/media/catalog/product/cache/3d6373dfdbd8bf7042581a31874a0831/d/c/dcbb4a3f661dcbd34de92caa1f45d7643c51d56b_TS_CARGO_BLACK_GREY_SD_01.jpg",
+      "image": "VENUM-03757-109.jpg"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "products.product",
+    "fields": {
+      "sku": "VENUM-03858-129",
+      "name": "Venum BJJ Classic 20 T-Shirt Black",
+      "description": " A much more bold product design compared to the VT range. A Fight Your Limits inscription represents the combative identity of the range.",
+      "price": 29.99,
+      "category": 2,
+      "rating": 4.7,
+      "image_url": "https://euro.venum.com/en/venum-bjj-classic-20-t-shirt-black-gold.html",
+      "image": "VENUM-03858-129.jpg"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "products.product",
+    "fields": {
+      "sku": "VENUM-03857-126",
+      "name": "Venum MMA Classic T-Shirt",
+      "description": " A tremendous product of the line of Venum MMA Classic 20 T-Shirt Black.",
+      "price": 27.99,
+      "category": 2,
+      "rating": 3.0,
+      "image_url": "https://euro.venum.com/media/catalog/product/cache/3d6373dfdbd8bf7042581a31874a0831/a/1/a134376c83a2bee0ce13b17337877711ae731647_TS_CLASSIC_2.0_BOXING_BLACK_GOLD_SD_01.jpg",
+      "image": "VENUM-03857-126.jpg"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "products.product",
+    "fields": {
+      "sku": "VENUM-03855-128",
+      "name": "Venum MMA Classic 20 T-Shirt Black/Silver",
+      "description": "Its Cotton / Elastane composition provides a softness and flexibility for increased comfort. As with all Venum products, care has been taken with every last detail.",
+      "price": 25.99,
+      "category": 2,
+      "rating": 3.6,
+      "image_url": "https://euro.venum.com/media/catalog/product/cache/3d6373dfdbd8bf7042581a31874a0831/6/8/6883707213ed8f30e99c803d6fee971cdd7bd983_TS_CLASSIC_2.0_MMA_BLACK_SILVER_SD_01.jpg",
+      "image": "VENUM-03855-128.jpg"
+    }
+  },
+  {
+    "pk": 6,
+    "model": "products.product",
+    "fields": {
+      "sku": "VENUM-03856-100",
+      "name": "Venum MUAY THAI Classic 20 T-Shirt Black/Red",
+      "description": "Its Cotton / Elastane composition provides a softness and flexibility for increased comfort. As with all Venum products, care has been taken with every last detail.",
+      "price": 27.99,
+      "category": 2,
+      "rating": 3.2,
+      "image_url": "https://euro.venum.com/media/catalog/product/cache/3d6373dfdbd8bf7042581a31874a0831/b/c/bca4205f8768dc2106ce7b45f0470371b907b890_TS_CLASSIC_2.0_MUAYTHAI_BLACK_RED_SD_01.jpg",
+      "image": "VENUM-03856-100.jpg"
+    }
+  },
+  {
+    "pk": 7,
+    "model": "products.product",
+    "fields": {
+      "sku": "VENUM-03730-114",
+      "name": "Venum MMA VT T-shirt - Black/White",
+      "description": "Its Cotton / Elastane composition provides a softness and flexibility for increased comfort. As with all Venum products, care has been taken with every last detail.",
+      "price": 27.99,
+      "category": 2,
+      "rating": 3.4,
+      "image_url": "https://euro.venum.com/media/catalog/product/cache/3d6373dfdbd8bf7042581a31874a0831/4/7/470f25db225edf419b3677fc7be2a574ce012c2f_TS_VT_MMA_BLACK_BLACK_1500_01.jpg",
+      "image": "VENUM-03730-114.jpg"
+    }
+  },
+  {
+    "pk": 8,
+    "model": "products.product",
+    "fields": {
+      "sku": "VENUM-03757",
+      "name": "Venum Cargo T-shirt",
+      "description": "Its Cotton / Elastane composition provides a softness and flexibility for increased comfort. As with all Venum products, care has been taken with every last detail.",
+      "price": 32.99,
+      "category": 2,
+      "rating": 3.1,
+      "image_url": "https://euro.venum.com/media/catalog/product/cache/3d6373dfdbd8bf7042581a31874a0831/6/6/66dbe990718134044f03c8a002aca6fa6737deec_TS_CARGO_DARKBLUE_RASPBERRY_WHITE_1500_01.jpg",
+      "image": "VENUM-03757.jpg"
+    }
+  },
+  {
+    "pk": 9,
+    "model": "products.product",
+    "fields": {
+      "sku": "VENUM-03704-219",
+      "name": "Venum Trooper Tank Top - Forest Camo/Black",
+      "description": "The Trooper tank top will be particularly appreciated during the summer months or in a gym during intense training.",
+      "price": 27.99,
+      "category": 1,
+      "rating": 4.2,
+      "image_url": "https://euro.venum.com/media/catalog/product/cache/3d6373dfdbd8bf7042581a31874a0831/a/0/a05fb17d22d6e66ed6bd3818d1ffe444ac8594f4_TANKTOP_TROOPER_FORESTCAMO_BLACK_SD_01.jpg",
+      "image": "VENUM-03704-219.jpg"
+    }
+  },
+  {
+    "pk": 10,
+    "model": "products.product",
+    "fields": {
+      "sku": "VENUM-03704-100",
+      "name": "Venum Trooper tank top - Black/Red",
+      "description": "The Trooper tank top will be particularly appreciated during the summer months or in a gym during intense training.",
+      "price": 27.99,
+      "category": 1,
+      "rating": 4.5,
+      "image_url": "https://euro.venum.com/media/catalog/product/cache/3d6373dfdbd8bf7042581a31874a0831/1/4/146910fe01261146377fe0b15b12047439013da6_TANKTOP_TROOPER_BLACK_RED_SD_01.jpg",
+      "image": "VENUM-03704-100.jpg"
+    }
+  },
+  {
+    "pk": 11,
+    "model": "products.product",
+    "fields": {
+      "sku": "VENUM-03704-210",
+      "name": "Venum Trooper tank top - White/Black",
+      "description": "The Trooper tank top will be particularly appreciated during the summer months or in a gym during intense training.",
+      "price": 27.99,
+      "category": 1,
+      "rating": 4.7,
+      "image_url": "https://euro.venum.com/media/catalog/product/cache/3d6373dfdbd8bf7042581a31874a0831/9/a/9a9a087754cf0ca9e1701346f033dbc9e9c9bf28_TANKTOP_TROOPER_WHITE_BLACK_SD_01.jpg",
+      "image": "VENUM-03704-210.jpg"
+    }
+  },
+  {
+    "pk": 12,
+    "model": "products.product",
+    "fields": {
+      "sku": "VENUM-03703-116",
+      "name": "Venum Aero 2.0 Tank Top - Black/Neo Yellow",
+      "description": "The Trooper tank top will be particularly appreciated during the summer months or in a gym during intense training.",
+      "price": 27.99,
+      "category": 1,
+      "rating": 4.0,
+      "image_url": "https://euro.venum.com/media/catalog/product/cache/3d6373dfdbd8bf7042581a31874a0831/0/8/08e62977575c074492699a9a6ff7d5cec300e91a_TANKTOP_AERO2.0_BLACK_NEOYELLOW_SD_01.jpg",
+      "image": "VENUM-03703-116.jpg"
+    }
+  },
+  {
+    "pk": 13,
+    "model": "products.product",
+    "fields": {
+      "sku": "VENUM-03703-541",
+      "name": "Venum Aero 2.0 Tank Top - Grey/Cyan",
+      "description": "The Aero 2.0 tank top has been designed to cope with hot weather and sustained training.",
+      "price": 27.99,
+      "category": 1,
+      "rating": 4.7,
+      "image_url": "https://euro.venum.com/media/catalog/product/cache/3d6373dfdbd8bf7042581a31874a0831/9/d/9d92b1bba575480bc302a72068d6f95901d778f3_TANKTOP_AERO2.0_GREY_CYAN_SD_01.jpg",
+      "image": "VENUM-03703-541.jpg"
+    }
+  },
+  {
+    "pk": 14,
+    "model": "products.product",
+    "fields": {
+      "sku": "VENUM-03523-126",
+      "name": "Venum Club 182 Tank Top - Black/Gold",
+      "description": "The Venum Club 182 Tank Top is a perfect mix between the Dry Tech Technology and strategic mesh panels.",
+      "price": 27.99,
+      "category": 1,
+      "rating": 4.7,
+      "image_url": "https://euro.venum.com/media/catalog/product/cache/3d6373dfdbd8bf7042581a31874a0831/0/5/0581e9fdbf4500ec4e7545af29bc59c645ce3b0a_TANKTOP_CLUB182_BLACK_GOLD_SD_01.jpg",
+      "image": "VENUM-03523-126.jpg"
+    }
+  },
+  {
+    "pk": 15,
+    "model": "products.product",
+    "fields": {
+      "sku": "VENUM-03816-199",
+      "name": "Venum Muay Thai VT Tank Top - Red Wine/Black",
+      "description": "The Venum Muay Thai VT tank top features a fitted cut that offers unmatched style and maximum comfort.",
+      "price": 27.99,
+      "category": 1,
+      "rating": 4.7,
+      "image_url": "https://euro.venum.com/media/catalog/product/cache/3d6373dfdbd8bf7042581a31874a0831/6/2/62a1fab70a21c77f9a3fd01c6f34cbd455141b69_TANKTOP_VT_MUAYTHAI_REDVINE_BLACK_1500_00.jpg",
+      "image": "VENUM-03816-199.jpg"
+    }
+  },
+  {
+    "pk": 16,
+    "model": "products.product",
+    "fields": {
+      "sku": "VENUM-03846-126",
+      "name": "Venum Petrosyan Dry Tech Tank Top - Black/Gold",
+      "description": "The Venum Petrosyan collection offers a range of performance and style-based products, featuring top athlete Giorgio Petrosyan.",
+      "price": 47.99,
+      "category": 1,
+      "rating": 5.0,
+      "image_url": "https://cdn.shopify.com/s/files/1/0264/2218/1937/products/a_252F4_252Fb_252Ff_252Fa4bf52c23b209ace995286a83a855c7a77172ddf_TANKTOP_PETROSYAN_BLACK_GOLD_HD_01.png?v=1600172910",
+      "image": "VENUM-03846-126.png"
+    }
+  },
+  {
+    "pk": 17,
+    "model": "products.product",
+    "fields": {
+      "sku": "VENUM-03937-109",
+      "name": "Venum Bandit Fightshort - Black/Grey",
+      "description": "Our fightshorts are symbolic of the Venum know-how, and are specifically designed to withstand the rough training of combat sports.",
+      "price": 59.99,
+      "category": 3,
+      "rating": 4.3,
+      "image_url": "https://euro.venum.com/media/catalog/product/cache/3d6373dfdbd8bf7042581a31874a0831/7/c/7c644782ccfa418707b77b7901a9f465156bf807_FIGHTSHORT_BANDIT_BLACK_GREY_SD_01.jpg",
+      "image": "VENUM-03937-109.jpg"
+    }
+  },
+  {
+    "pk": 18,
+    "model": "products.product",
+    "fields": {
+      "sku": "VENUM-03794",
+      "name": "Venum Sky247 Fightshort - Black/Grey",
+      "description": "Our fightshorts are symbolic of the Venum know-how, and are specifically designed to withstand the rough training of combat sports.",
+      "price": 59.99,
+      "category": 3,
+      "rating": 4.2,
+      "image_url": "https://euro.venum.com/media/catalog/product/cache/3d6373dfdbd8bf7042581a31874a0831/a/0/a08686066e85d22b34a474155b69fac4b205e345_FS_247_BLACK_GREY_SD_01__1_.jpg",
+      "image": "VENUM-03794.jpg"
+    }
+  },
+  {
+    "pk": 19,
+    "model": "products.product",
+    "fields": {
+      "sku": "VENUM-03799-498",
+      "name": "Venum Defender Fightshort - Dark camo",
+      "description": "The Venum Defender Fightshorts are perfectly suited to practice of MMA, and can also be used for the practice of other combat sports.",
+      "price": 59.99,
+      "category": 3,
+      "rating": 4.1,
+      "image_url": "https://euro.venum.com/media/catalog/product/cache/3d6373dfdbd8bf7042581a31874a0831/b/6/b69862e61d8135e9f38e47762e3600837dbd64de_FIGHTSHORTS_DEFENDER_DARKCAMO_SD_02__1_.jpg",
+      "image": "VENUM-03799-498.jpg"
+    }
+  },
+  {
+    "pk": 20,
+    "model": "products.product",
+    "fields": {
+      "sku": "VENUM-03799-501",
+      "name": " Venum Defender Fightshort - Urban Camo ",
+      "description": "The Venum Defender Fightshorts are perfectly suited to practice of MMA, and can also be used for the practice of other combat sports.",
+      "price": 59.99,
+      "category": 3,
+      "rating": 4.1,
+      "image_url": "https://euro.venum.com/media/catalog/product/cache/3d6373dfdbd8bf7042581a31874a0831/0/c/0cf9b60e3934c8659cf3a965b3b81320fb52485b_FS_DEFENDER_URBANCAMO_SD_02.jpg",
+      "image": "VENUM-03799-501.jpg"
+    }
+  },
+  {
+    "pk": 21,
+    "model": "products.product",
+    "fields": {
+      "sku": "VENUM-03615-200",
+      "name": "Venum Light 3.0 Fightshorts - Khaki/Black",
+      "description": "Improve your performances with the Venum Light 3.0 Fightshorts made with ripstop. The lycra insert on the crotch will give you a remarkable mobility that will allow you to surpass yourself during your training and your fights.",
+      "price": 59.99,
+      "category": 3,
+      "rating": 4.0,
+      "image_url": "https://euro.venum.com/media/catalog/product/cache/3d6373dfdbd8bf7042581a31874a0831/c/8/c86cab62bd8ae2f78aa2c5cd97fab612620efc8b_FS_LIGHT_3.0_KHAKI_BLACK_1500_02.jpg",
+      "image": "VENUM-03615-200.jpg"
+    }
+  },
+  {
+    "pk": 22,
+    "model": "products.product",
+    "fields": {
+      "sku": "VENUM-03615-126",
+      "name": "Venum Light 3.0 Fightshorts - Black/Gold",
+      "description": "Improve your performances with the Venum Light 3.0 Fightshorts made with ripstop. The lycra insert on the crotch will give you a remarkable mobility that will allow you to surpass yourself during your training and your fights.",
+      "price": 59.99,
+      "category": 3,
+      "rating": 4.0,
+      "image_url": "https://euro.venum.com/media/catalog/product/cache/3d6373dfdbd8bf7042581a31874a0831/0/a/0a08ab6a87ed0b0c462f0b0b8c3b2972c482a511_FS_LIGHT_3.0_BLACK_GOLD_1500_02__1_.jpg",
+      "image": "VENUM-03615-126.jpg"
+    }
+  },
+  {
+    "pk": 23,
+    "model": "products.product",
+    "fields": {
+      "sku": "VENUM-03615-449",
+      "name": "Venum Light 3.0 Fightshorts - Gold/Black",
+      "description": "Improve your performances with the Venum Light 3.0 Fightshorts made with ripstop. The lycra insert on the crotch will give you a remarkable mobility that will allow you to surpass yourself during your training and your fights.",
+      "price": 59.99,
+      "category": 3,
+      "rating": 4.0,
+      "image_url": "https://euro.venum.com/media/catalog/product/cache/3d6373dfdbd8bf7042581a31874a0831/3/0/309d7894c251205c179e9da77800c1386894cfb9_FS_LIGHT_3.0_GOLD_BLACK_1500_02__1_.jpg",
+      "image": "VENUM-03615-449.jpg"
+    }
+  },
+  {
+    "pk": 24,
+    "model": "products.product",
+    "fields": {
+      "sku": "VENUM-03615-501",
+      "name": "Venum Light 3.0 Fightshorts - Urban Camo",
+      "description": "Improve your performances with the Venum Light 3.0 Fightshorts made with ripstop. The lycra insert on the crotch will give you a remarkable mobility that will allow you to surpass yourself during your training and your fights.",
+      "price": 59.99,
+      "category": 3,
+      "rating": 4.0,
+      "image_url": "https://euro.venum.com/media/catalog/product/cache/3d6373dfdbd8bf7042581a31874a0831/d/3/d3f4908cc02705fed53787a8b78d59b4da6d13ff_FS_LIGHT_3.0_URBANCAMO_1500_02.jpg",
+      "image": "VENUM-03615-501.jpg"
+    }
+  },
+  {
+    "pk": 25,
+    "model": "products.product",
+    "fields": {
+      "sku": "VENUM-03946-405",
+      "name": "Venum Origins Joggers Blue/Yellow",
+      "description": "Utilizing an established Venum design (Laser, Laser Evo), these Loma Origins Joggers adopt our premium technical materials and design.",
+      "price": 39.99,
+      "category": 4,
+      "rating": 3.6,
+      "image_url": "https://euro.venum.com/media/catalog/product/cache/3d6373dfdbd8bf7042581a31874a0831/d/1/d1f8562660d9fa919e97e6600f55c14016c70365_JOGGING_ORIGINS_BLUE_YELLOW_1500_01.jpg",
+      "image": "VENUM-03946-405.jpg"
+    }
+  },
+  {
+    "pk": 26,
+    "model": "products.product",
+    "fields": {
+      "sku": "VENUM-03958-108",
+      "name": "Venum Arrow Track Jacket Loma Edition - Black/White",
+      "description": "The Venum Arrow jacket has a subtle and stylish design. This Venum jacket is new model, and has a more fitted cut used to enhance your shape.",
+      "price": 49.99,
+      "category": 5,
+      "rating": 3.8,
+      "image_url": "https://euro.venum.com/media/catalog/product/cache/3d6373dfdbd8bf7042581a31874a0831/d/4/d40c7e72976b16af072e2804377f455213bb1ac2_HOODIE_ARROW_BLACK_WHITE_1500_01__2_.jpg",
+      "image": "VENUM-03958-108.jpg"
+    }
+  },
+  {
+    "pk": 27,
+    "model": "products.product",
+    "fields": {
+      "sku": "VENUM-03951-108",
+      "name": "Venum Arrow Boxing Gloves Loma Edition",
+      "description": "The Loma signature collection has been designed with most athletes in mind. An ideal choice for experienced boxers and / or beginners looking for a product offering comfort, protection and longevity.",
+      "price": 49.99,
+      "category": 6,
+      "rating": 3.9,
+      "image_url": "https://euro.venum.com/media/catalog/product/cache/3d6373dfdbd8bf7042581a31874a0831/a/4/a4d4c8c392ce9c7cd384e83f77842881f33a7a2b_BG_ARROW_LOMA_WHITE_1500_02.jpg",
+      "image": "VENUM-03951-108.jpg"
+    }
+  },
+  {
+    "pk": 28,
+    "model": "products.product",
+    "fields": {
+      "sku": "VENUM-SHIN01-101",
+      "name": "Venum Elite Standup Shin guards - White/Gold",
+      "description": "Made in Thailand, our Elite standup shin guards combines comfort and great durability at an affordable price.",
+      "price": 109.98,
+      "category": 7,
+      "rating": 4.5,
+      "image_url": "https://euro.venum.com/media/catalog/product/cache/3d6373dfdbd8bf7042581a31874a0831/1/6/16818a11206f90dace98e35fbbd6a39131f7c250_IMG_0307_2_copie.jpg",
+      "image": "VENUM-SHIN01-101.jpg"
+    }
+  },
+  {
+    "pk": 29,
+    "model": "products.product",
+    "fields": {
+      "sku": "EU-VENUM-2047-Yellow/Black",
+      "name": "Venum Challenger Mouthguard - Yellow/Black",
+      "description": "Wherever there is intense training comes the need for intense protection and great durability at an affordable price.",
+      "price": 14.99,
+      "category": 8,
+      "rating": 4.2,
+      "image_url": "https://euro.venum.com/media/catalog/product/cache/3d6373dfdbd8bf7042581a31874a0831/0/a/0aa18541b0870f4befa28785f2e158f435d87be5_MOUTHGUARD_CHALLENGER_YELLOW_BLACK_HD_01.jpg",
+      "image": "EU-VENUM-2047-Yellow/Black.jpg"
+    }
+  },
+  {
+    "pk": 30,
+    "model": "products.product",
+    "fields": {
+      "sku": "VENUM-03915-405",
+      "name": "Venum Pro Boxing Headgear Loma Edition - Blue/Yellow",
+      "description": "High-end bar helmet, specially designed for professional use. Comfortable and very protective, because of the natural foams utilized, this helmet is suitable for tough sparring rounds.",
+      "price": 219.99,
+      "category": 9,
+      "rating": 4.9,
+      "image_url": "https://euro.venum.com/media/catalog/product/cache/3d6373dfdbd8bf7042581a31874a0831/e/7/e7ab1c18098a5e455f966586884908c873e049ed_HEADGEAR_BAR_PROBOX_LOMA_BLUE_YELLOW_1500_01.jpg",
+      "image": "VENUM-03915-405.jpg"
+    }
+  },
+  {
+    "pk": 31,
+    "model": "products.product",
+    "fields": {
+      "sku": "EU-VENUM-2124",
+      "name": "Venum Challenger Xtrem Backpack",
+      "description": "This is just more than an oversized backpack. The Venum Challenger Xtrem Backpack is a fully convertible equipment bag!",
+      "price": 89.99,
+      "category": 10,
+      "rating": 4.3,
+      "image_url": "https://euro.venum.com/media/catalog/product/cache/3d6373dfdbd8bf7042581a31874a0831/0/4/044d1515c5cd91bbc116bb35e08e8412ba921948_bag_challenger_xtrem_01.jpg",
+      "image": "EU-VENUM-2124.jpg"
+    }
+  },
+  {
+    "pk": 32,
+    "model": "products.product",
+    "fields": {
+      "sku": "VENUM-03988-539",
+      "name": "Venum Boxing Lab Dry Tech T-shirt - Black/Green",
+      "description": "The Boxing Lab Dry-Tech t-shirts stand up to the toughest training sessions. Very comfortable thanks to a dry-tec elastane, they facilitate the wicking of perspiration and dry much faster than regular cotton shirts.",
+      "price": 38.99,
+      "category": 11,
+      "rating": 3.2,
+      "image_url": "https://euro.venum.com/media/catalog/product/cache/3d6373dfdbd8bf7042581a31874a0831/e/5/e548a2b664f54c3789c2f19c394d180816f73764_DRYTECH_BOXINGLAB_BLACK_KHAKI_SD_01.jpg",
+      "image": "VENUM-03988-539.jpg"
+    }
+  },
+  {
+    "pk": 33,
+    "model": "products.product",
+    "fields": {
+      "sku": "PACKM-00110",
+      "name": "Venum Loma Tracksuit Pack",
+      "description": "Beautiful tracksuit for eastern european men",
+      "price": 169.99,
+      "category": 12,
+      "rating": 4.3,
+      "image_url": "https://euro.venum.com/media/catalog/product/cache/3d6373dfdbd8bf7042581a31874a0831/h/o/hoodie_commando_khaki_1500_08.jpg",
+      "image": "PACKM-00110.jpg"
+    }
+  },
+  {
+    "pk": 34,
+    "model": "products.product",
+    "fields": {
+      "sku": "VENUM-03962-015",
+      "name": "Venum Loma Commando Boxing Shorts - Khaki",
+      "description": "The Venum Loma Commando Boxing Shorts pay tribute to traditional boxing shorts, but utilize a modern design. Soft and flexible, these shorts have all the features to ensure maximum comfort during your workout.",
+      "price": 39.99,
+      "category": 13,
+      "rating": 3.3,
+      "image_url": "https://euro.venum.com/media/catalog/product/cache/3d6373dfdbd8bf7042581a31874a0831/7/4/7499b6086b0dc7e69d967e1249b4ac99d6e9c351_BOXING_SHORT_COMMANDO_KHAKI_1500_01.jpg",
+      "image": "VENUM-03962-015.jpg"
+    }
+  }
+]
