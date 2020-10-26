@@ -17,12 +17,12 @@
                 Clothing
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">Tops</a>
-                <a href="" class="dropdown-item">T-shirts</a>
-                <a href="" class="dropdown-item">Shorts</a>
-                <a href="" class="dropdown-item">Trousers</a>
-                <a href="" class="dropdown-item">Jackets</a>
-                <a href="" class="dropdown-item">All Clothing</a>
+                <a href="{% url 'products' %}?category=tops" class="dropdown-item">Tops</a>
+                <a href="{% url 'products' %}?category=tshirts" class="dropdown-item">T-shirts</a>
+                <a href="{% url 'products' %}?category=shorts" class="dropdown-item">Shorts</a>
+                <a href="{% url 'products' %}?category=trousers" class="dropdown-item">Trousers</a>
+                <a href="{% url 'products' %}?category=jackets" class="dropdown-item">Jackets</a>
+                <a href="{% url 'products' %}?category=tops,tshirts,shorts,trousers,jackets" class="dropdown-item">All Clothing</a>
             </div>
         </li>
 
@@ -31,12 +31,12 @@
                 Gear
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="gear-link">
-                <a href="" class="dropdown-item">Gloves</a>
-                <a href="" class="dropdown-item">Shinguards</a>
-                <a href="" class="dropdown-item">Mouthguards</a>
-                <a href="" class="dropdown-item">Headgear</a>
-                <a href="" class="dropdown-item">Bags</a>
-                <a href="" class="dropdown-item">All Gear</a>
+                <a href="{% url 'products' %}?category=gloves" class="dropdown-item">Gloves</a>
+                <a href="{% url 'products' %}?category=shinguards" class="dropdown-item">Shinguards</a>
+                <a href="{% url 'products' %}?category=mouthguards" class="dropdown-item">Mouthguards</a>
+                <a href="{% url 'products' %}?category=headgear" class="dropdown-item">Headgear</a>
+                <a href="{% url 'products' %}?category=bags" class="dropdown-item">Bags</a>
+                <a href="{% url 'products' %}?category=gloves,shinguards,mouthguards,headgear,bags,gloves" class="dropdown-item">All Gear</a>
             </div>
         </li>
 
@@ -45,10 +45,10 @@
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">New Arrivals</a>
-                <a href="" class="dropdown-item">Deals</a>
-                <a href="" class="dropdown-item">Clearance</a>
-                <a href="" class="dropdown-item">All Specials</a>
+                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
+                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
+                <a href="{% url 'products' %}?category=clearence" class="dropdown-item">Clearance</a>
+                <a href="{% url 'products' %}?category=new_arrivals,deals,clearence" class="dropdown-item">All Specials</a>
             </div>
         </li>
     </ul>
