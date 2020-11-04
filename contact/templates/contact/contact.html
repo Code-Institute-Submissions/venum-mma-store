@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block title %}Contact{% endblock %}
+
+{% block content %}
+<div class="container">
+   <div class="row card-row">
+      <div class="col-12 col-md-6">
+         <div class="card form-card user-card">
+            <div class="card-header page-title" id="main-content">
+               <h2><i class="far fa-envelope"></i>Contact Us </h2>
+            </div>
+            <div class="card-body">
+               <p>Contace VENUM MMA STORE by filling the form bellow!</p>
+               <form action="{% url 'contact' %}" method="POST">
+                  <!-- Hidden field to help prevent attacks -->
+                  {% csrf_token %}
+                  <div class="form-group">
+                     {{ form|crispy }}
+                  </div>
+                  <input type="submit" value="Submit" class="btn btn-block user-btn">
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+{% endblock %}

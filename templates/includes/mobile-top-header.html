@@ -41,6 +41,26 @@
     </div>
 </li>
 <li class="list-inline-item">
+    <a class="{% if total %}text-primary font-weight-bold{% else %}text-black{% endif %} nav-link d-block d-lg-none" href="{% url 'contact' %}">
+        <div class="text-center">
+            <div><i class="fas fa-envelope-square"></i></div>
+            <p class="my-0">
+                Contact us
+            </p>
+        </div>
+    </a>
+</li>
+<li class="list-inline-item">
+    <a class="{% if total %}text-primary font-weight-bold{% else %}text-black{% endif %} nav-link d-block d-lg-none" href="{% url 'view_wishlist' %}">
+        <div class="text-center">
+            <div><i class="fas fa-heart fa-lg"></i></div>
+            <p class="my-0">
+                WishList
+            </p>
+        </div>
+    </a>
+</li>
+<li class="list-inline-item">
     <a class="{% if grand_total %}text-primary font-weight-bold{% else %}text-black{% endif %} nav-link d-block d-lg-none" href="{% url 'view_bag' %}">
         <div class="text-center">
             <div><i class="fas fa-shopping-bag fa-lg"></i></div>
@@ -50,16 +70,6 @@
                 {% else %}
                     $0.00
                 {% endif %}
-            </p>
-        </div>
-    </a>
-</li>
-<li class="list-inline-item">
-    <a class="{% if grand_total %}text-primary font-weight-bold{% else %}text-black{% endif %} nav-link d-block d-lg-none" href="{% url 'view_wishlist' %}">
-        <div class="text-center">
-            <div><i class="fas fa-heart fa-lg"></i></div>
-            <p class="my-0">
-                WishList
             </p>
         </div>
     </a>

@@ -291,3 +291,16 @@ input[name='q']::placeholder {
         height: calc(100vh - 116px);
     }
 }
+
+/* Contact form */
+.card-row {
+	margin-top: 20em;
+  margin-bottom: 20em;
+}
+
+.user-card {
+	background-color: #dfdfdf;
+	color: #161616;
+	border-radius: 1rem;
+	border: none;
+}
