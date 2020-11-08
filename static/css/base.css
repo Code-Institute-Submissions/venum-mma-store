@@ -380,8 +380,8 @@ footer {
 }
 
 .user-card {
-  background-color: #dfdfdf;
+  background-color: grey;
   color: #161616;
   border-radius: 1rem;
-  border: none;
+  border: 3px solid white;
 }
