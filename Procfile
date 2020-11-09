@@ -1,1 +1,1 @@
-web: gunicorn venum-mma-store.wsgi:application
+web: gunicorn venum_mma_store.wsgi:application
