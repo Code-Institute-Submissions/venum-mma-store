@@ -10,7 +10,9 @@ body {
   color: #555;
   font-family: "Lato";
 }
-
+li.list-inline-item {
+    background: red;
+}
 .banner {
   background: rgb(0, 0, 0);
   opacity: 0.6;
