@@ -10,14 +10,31 @@ body {
   color: #555;
   font-family: "Lato";
 }
-li.list-inline-item {
-    background: red;
+
+/* Custom navbar styling */
+
+li.list-inline-item:hover,
+li.list-inline-item:active,
+li.list-inline-item:focus {
+    background: lightgray;
 }
+
 .banner {
   background: rgb(0, 0, 0);
   opacity: 0.6;
   color: red;
 }
+
+#main-nav ul li:hover {
+background: lightgray;
+color: black;
+}
+
+#main-nav ul li a:hover {
+background: lightgray;
+color: black;
+}
+
 /* from Bulma */
 .icon {
   align-items: center;
@@ -382,8 +399,8 @@ footer {
 }
 
 .user-card {
-  background-color: grey;
+  background-color: lightgray;
   color: #161616;
   border-radius: 1rem;
-  border: 3px solid white;
+  border: 3px solid grey;
 }
