@@ -16,7 +16,7 @@ body {
 li.list-inline-item:hover,
 li.list-inline-item:active,
 li.list-inline-item:focus {
-    background: red;
+    background: lightgray;
 }
 
 .banner {
