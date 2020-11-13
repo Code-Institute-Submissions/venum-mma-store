@@ -421,11 +421,4 @@ footer {
 .error-container {
   padding-top: 5rem;
   padding-bottom: 4rem;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  position: fixed;
-  background: white;
-  z-index: -1;
 }
