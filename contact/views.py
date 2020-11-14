@@ -7,7 +7,7 @@ import os
 ADMINS_EMAIL = os.environ.get('ADMINS_EMAIL')
 
 
-def contact(request):
+def contactView(request):
     if request.method == 'GET':
         form = ContactForm()
     else:
@@ -17,13 +17,12 @@ def contact(request):
             from_email = form.cleaned_data['from_email']
             message = form.cleaned_data['message']
             try:
-                send_mail(subject, message, from_email,
-                          [ADMINS_EMAIL])
+                send_mail(subject, message, from_email, [ADMINS_EMAIL])
             except BadHeaderError:
                 return HttpResponse('Invalid header found.')
             return redirect('success')
     return render(request, 'contact', {'form': form})
 
 
-def success(request):
-    return HttpResponse('Thank you for contacting Venum MMA Store. We will get back to you shortly.')
+def successView(request):
+    return HttpResponse('Success! Thank you for your message.')

@@ -18,7 +18,7 @@
                   <!-- Hidden field to help prevent attacks -->
                   {% csrf_token %}
                   <div class="form-group">
-                     {{ form|crispy }}
+                     {{ form.as_p }}
                   </div>
                   <input type="submit" value="Submit" class="btn btn-block btn-black">
                </form>
