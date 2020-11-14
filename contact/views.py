@@ -7,7 +7,7 @@ import os
 ADMINS_EMAIL = os.environ.get('ADMINS_EMAIL')
 
 
-def contactView(request):
+def contact(request):
     if request.method == 'GET':
         form = ContactForm()
     else:
@@ -25,5 +25,5 @@ def contactView(request):
     return render(request, 'contact', {'form': form})
 
 
-def successView(request):
+def success(request):
     return HttpResponse('Thank you for contacting Venum MMA Store. We will get back to you shortly.')
