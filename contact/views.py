@@ -4,6 +4,7 @@ from django.shortcuts import render, redirect
 from .forms import ContactForm
 import os
 
+
 ADMINS_EMAIL = os.environ.get('ADMINS_EMAIL')
 
 
@@ -21,8 +22,8 @@ def contactView(request):
             except BadHeaderError:
                 return HttpResponse('Invalid header found.')
             return redirect('success')
-    return render(request, 'contact', {'form': form})
+    return render(request, 'contact/contact.html', {'form': form})
 
 
 def successView(request):
-    return HttpResponse('Success! Thank you for your message.')
+    return HttpResponse('Thank you for contacting VENUM MMA STORE. We will be with you shortly.')
