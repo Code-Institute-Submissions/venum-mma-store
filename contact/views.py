@@ -21,9 +21,9 @@ def contactView(request):
                 send_mail(subject, message, from_email, [ADMINS_EMAIL])
             except BadHeaderError:
                 return HttpResponse('Invalid header found.')
-            return redirect('success')
+            return redirect('contact/success.html')
     return render(request, 'contact/contact.html', {'form': form})
 
 
 def successView(request):
-    return HttpResponse('Thank you for contacting VENUM MMA STORE. We will be with you shortly.')
+    return render(request, 'contact/success.html')

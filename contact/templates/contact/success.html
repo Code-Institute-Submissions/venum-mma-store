@@ -12,16 +12,10 @@
                <h2><i class="far fa-envelope"></i>Contact Us </h2>
             </div>
             <div class="card-body">
-               <p>Got a question? Feel free to contact venum mma store with the form below.</p>
-               <form action="{% url 'contact' %}" method="POST">
-                  {% csrf_token %}
-                  <div class="form-group">
-                     {{ form|crispy }}
-                  </div>
-                  <input type="submit" value="Submit" class="btn btn-lg btn-black">
-               </form>
+               <p>Thank you for contacting VENUM MMA STORE. We will be with you shortly.</p>
             </div>
          </div>
       </div>
+    </div> 
 </div>
 {% endblock %}
