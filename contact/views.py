@@ -21,7 +21,7 @@ def contactView(request):
                 send_mail(subject, message, from_email, [ADMINS_EMAIL])
             except BadHeaderError:
                 return HttpResponse('Invalid header found.')
-            return redirect('contact/success.html')
+            return redirect('success')
     return render(request, 'contact/contact.html', {'form': form})
 
 
