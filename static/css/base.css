@@ -11,6 +11,11 @@ body {
   font-family: "Lato";
 }
 
+.index-message {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: red;
+}
+
 /* Custom navbar styling */
 
 li.list-inline-item:hover,
@@ -85,6 +90,20 @@ li.list-inline-item:focus {
   background: red !important;
   color: white !important;
   border: 1px solid white;
+}
+
+.btn-red {
+  background: red;
+  color: white;
+  border: 1px solid white;
+}
+
+.btn-red:hover,
+.btn-red:active,
+.btn-red:focus {
+  background: white !important;
+  color: red !important;
+  border: 1px solid red;
 }
 
 .btn-purple {
@@ -394,8 +413,10 @@ footer {
 
 /* Contact form */
 .card-row {
+  margin: auto;
+  width: 90%;
   margin-top: 20em;
-  margin-bottom: 20em;
+  margin-bottom: 10em;
 }
 
 .user-card {
