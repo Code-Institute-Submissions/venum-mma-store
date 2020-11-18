@@ -6,7 +6,9 @@
       "name": "UFC FIGUEIREDO VS PEREZ",
       "day": "2020-12-24",
       "location": "Las Vegas, NV, USA",
-      "start_time": "16:00"
+      "start_time": "16:00",
+      "image_url": "https://wrestling-edge.com/wp-content/uploads/2020/08/UFC-Logo-800x450.jpg",
+      "image": "ufc-logo.jpg"
     }
   },
   {
@@ -16,7 +18,9 @@
       "name": "UFC FELDER VS DOS ANJOS",
       "day": "2020-12-24",
       "location": "Las Vegas, NV, USA",
-      "start_time": "16:00"
+      "start_time": "16:00",
+      "image_url": "https://wrestling-edge.com/wp-content/uploads/2020/08/UFC-Logo-800x450.jpg",
+      "image": "ufc-logo.jpg"
     }
   },
   {
@@ -26,7 +30,9 @@
       "name": "HALL VS SILVA",
       "day": "2020-12-24",
       "location": "Las Vegas, NV, USA",
-      "start_time": "16:00"
+      "start_time": "16:00",
+      "image_url": "https://wrestling-edge.com/wp-content/uploads/2020/08/UFC-Logo-800x450.jpg",
+      "image": "ufc-logo.jpg"
     }
   },
   {
@@ -36,7 +42,9 @@
       "name": "UFC BELFORT VS SILVA",
       "day": "2020-12-24",
       "location": "Las Vegas, NV, USA",
-      "start_time": "16:00"
+      "start_time": "16:00",
+      "image_url": "https://wrestling-edge.com/wp-content/uploads/2020/08/UFC-Logo-800x450.jpg",
+      "image": "ufc-logo.jpg"
     }
   },
   {
@@ -46,7 +54,9 @@
       "name": "UFC CANELO VS PEREZ",
       "day": "2020-12-24",
       "location": "Las Vegas, NV, USA",
-      "start_time": "16:00"
+      "start_time": "16:00",
+      "image_url": "https://wrestling-edge.com/wp-content/uploads/2020/08/UFC-Logo-800x450.jpg",
+      "image": "ufc-logo.jpg"
     }
   },
   {
@@ -56,17 +66,9 @@
       "name": "UFC ALVAREZ VS NGANOU",
       "day": "2020-12-24",
       "location": "Las Vegas, NV, USA",
-      "start_time": "16:00"
-    }
-  },
-  {
-    "pk": 7,
-    "model": "events.event",
-    "fields": {
-      "name": "UFC LUIS VS FIGO",
-      "day": "2020-12-24",
-      "location": "Las Vegas, NV, USA",
-      "start_time": "16:00"
+      "start_time": "16:00",
+      "image_url": "https://wrestling-edge.com/wp-content/uploads/2020/08/UFC-Logo-800x450.jpg",
+      "image": "ufc-logo.jpg"
     }
   }
 ]
