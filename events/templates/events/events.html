@@ -19,7 +19,11 @@
 <div class="col-4">
  
     <div class="thumbnail">
-      <img src="{{ event.image.url }}" alt="Paris">
+    {% if event.image %}
+      <img src="{{ MEDIA_URL }}ufc-logo.jpg" alt="{{ event.name }}">
+    {% else %}
+    <img src="{{ MEDIA_URL }}noimage.png" alt="{{ event.name }}">
+    {% endif %}
       <p><strong>{{ event.name }}</strong></p>
       <p><strong>{{ event.location }}</strong></p>
       <p>{{event.day|date:'m/d/Y' }}</p>
