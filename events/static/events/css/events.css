@@ -6,6 +6,9 @@
 
 .bg-1 p {font-style: italic;}
 
+.ticket-container {
+  border: 1px solid black !important;
+}
 /* Remove rounded borders from list */
 .list-group-item:first-child {
   border-top-right-radius: 0;
