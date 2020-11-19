@@ -1,7 +1,8 @@
 .bg-1 {
   background: white;
   color: black;
-  margin: 12rem;
+  margin-top: 15rem;
+  margin-bottom: 5rem;
 }
 
 .bg-1 p {font-style: italic;}
