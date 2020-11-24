@@ -19,7 +19,6 @@ def contactView(request):
                 subject=request.POST['subject'],
                 from_email=request.POST['from_email'],
                 message=request.POST['message'],
-                query_user=request.user
             )
 
             form.save()
@@ -47,14 +46,6 @@ def contactView(request):
 
     else:
         if request.user.is_authenticated:
-            form = ContactForm(
-                initial={
-                    'first_name': request.user.first_name,
-                    'last_name': request.user.last_name,
-                    'from_email': request.user.email
-                },
-            )
-        else:
             form = ContactForm()
 
     context = {
