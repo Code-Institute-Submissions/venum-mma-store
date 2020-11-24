@@ -14,12 +14,18 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='Event',
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                ('id', models.AutoField(auto_created=True, primary_key=True,
+                                        serialize=False, verbose_name='ID')),
                 ('name', models.CharField(max_length=200)),
-                ('day', models.DateField(help_text='Day of the event', verbose_name='Day of event')),
-                ('start_time', models.TimeField(help_text='Starting time', verbose_name='Starting time')),
+                ('day', models.DateField(help_text='Day of the event',
+                                         verbose_name='Day of event')),
+                ('start_time', models.TimeField(help_text='Starting time',
+                                                verbose_name='Starting time')),
                 ('location', models.CharField(max_length=200)),
-                ('notes', models.TextField(blank=True, help_text='Textaul Notes', null=True, verbose_name='Textual Notes')),
+                ('notes', models.TextField(blank=True,
+                                           help_text='Textaul Notes',
+                                           null=True,
+                                           verbose_name='Textual Notes')),
             ],
         ),
     ]
