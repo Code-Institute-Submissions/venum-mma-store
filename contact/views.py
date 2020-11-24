@@ -14,14 +14,14 @@ def contactView(request):
     else:
         form = ContactForm(request.POST)
         if form.is_valid():
+            first_name = form.cleaned_data['first_name']
+            last_name = form.cleaned_data['last_name']
             subject = form.cleaned_data['subject']
             from_email = form.cleaned_data['from_email']
             message = form.cleaned_data['message']
-            first_name = form.cleaned_data['first_name']
-            last_name = form.cleaned_data['last_name']
             try:
-                send_mail(subject, message, from_email,
-                          first_name, last_name, [ADMINS_EMAIL])
+                send_mail(first_name, last_name, subject, message, from_email,
+                          [ADMINS_EMAIL])
             except BadHeaderError:
                 return HttpResponse('Invalid header found.')
             return redirect('success')
