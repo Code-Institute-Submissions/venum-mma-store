@@ -45,8 +45,7 @@ def contactView(request):
         return redirect('success')
 
     else:
-        if request.user.is_authenticated:
-            form = ContactForm()
+        form = ContactForm()
 
     context = {
         'contact_page': 'active',
