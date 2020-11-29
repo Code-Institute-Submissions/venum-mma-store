@@ -96,7 +96,7 @@ The home page is the first page the customer lands in upon visiting our store. I
 A nice opaque footer that contains three social media links that change colors on hover, is at the bottom of all pages, to promote Venum's social media and keep the customer in touch.
 
 **My profile**
-Located at the top main navbar, this is a dropdown menu. If the user is not authenticated he/she will have the option to register or login. If the user is authenticated he/she will have the option to visit his/her profile, log out, or if the user is an admin, he/she will have the option to access the product management form to add a product.
+Located at the top main navbar, this is a dropdown menu. If the user is not authenticated he/she will have the option to register or login. If the user is authenticated he/she will have the option to visit his/her profile, view info and order history, log out, or if the user is an admin, he/she will have the option to access the product management form to add a product.
 
 **Products**
 All product categories are located in the dropdown menu of the second navbar beneath the main top navbar. A user many visit any category to view the products within it, sort it by name, price, rating, etc. The user sees the products in rows and the image as well as the name, category and rating is displayed. By clicking on a given product the user opens the individual product detail page.
@@ -269,8 +269,57 @@ Moreover he/she may add, edit and delete events both through the admin panel. Me
 
 ## Deployment
 
-All requirements to run and execute project are included in requirements.txt. The following command is required to install all requirements to workspace:
+All requirements to run and execute project are included in requirements.txt. If you would like to clone the project press clone in the github project directory and the following command is required to install all requirements to your own workspace: 
 • - pip3 install -r requirements.txt
+
+- Note that gitpod was used to develop this project so if you are using a different IDE the command may vary.
+- After cloning the project to your workspace make sure to run the makemigrations and migrate command.
+- Remember to include the variables below to your IDE's setting or even an env file.
+- Run the create super user command in order to create a super user for your project.
+- Run the server.
+
+**Variables**
+
+The following variables were added to GITPOD's settings as well as the config vars in heroku settings. These details are not provided for public view.
+
+SECRET_KEY
+STRIPE_PUBLIC_KEY
+STRIPE_SECRET_KEY
+STRIPE_WH_SECRET
+DATABASE_URL  
+ADMINS_EMAIL
+EMAIL_HOST_PASS
+EMAIL_HOST_USER
+
+**I took the following steps to remotely deploy my project on heroku:**
+- I created a Heroku app,  on Heroku.com. 
+- I gave the app a name that is unique and chose Europe as the region.
+- In the deployment method section of the apps deploy tab on heroku, I selected the option GitHub connect to Github.
+- I made sure my github profile was displayed when I pressed the Github connect to github button and wrote the repository's name before clicking search.
+- Once the repo was found I clicked connect.
+
+- Since I have  my environment variables in my gitpod settings, heroku won't be able to read them. So I had to tell heroku which vars are required:
+
+SECRET_KEY - secret key used for your Django project
+STRIPE_PUBLIC_KEY - provided in Stripe account
+STRIPE_SECRET_KEY - provided in Stripe account
+STRIPE_WH_SECRET - provided in Stripe account
+DATABASE_URL  - Heroku Postgres database url
+ADMINS_EMAIL - Used this to hide the actual adress from the project. Any adress will work.
+AWS_ACCESS_KEY_ID - provided by amazons aws
+AWS_SECRET_ACCESS_KEY - provided by amazons aws
+EMAIL_HOST_PASS - created in Gmail using two-step authentication by creating an App password for a Django app in Gmail's Google Account Security page. Sends real emails.
+EMAIL_HOST_USER - created in Gmail using two-step authentication by creating an App password for a Django app Gmail's Google Account Security page. Sends real emails.
+USE_AWS - set to true
+
+- I run following commands before deployment on my workspace's terminal:
+pip3 freeze –local > requirements.txt, this command will create a requirements file which is required by heroku to install requirements before deploying project.
+echo web: python app.py > Procfile This will create a Procfile. The Procfile is required by Heroku as the entry point for the project.
+- I logged in to heroku through my workspace by running heroku login -i.
+- I linked my Heroku app to my remote repository by running heroku git:remote -a venum-mma-store.
+- Last but not least I run git push heroku master.
+
+- Everything worked perfectly and the project was deployed and remotely updated every time I add and commit changes and run git push heroku.
 
 ## Features not yet added
 
@@ -278,6 +327,7 @@ All requirements to run and execute project are included in requirements.txt. Th
 - Add review section for customers to add reviews.
 - Allow customers to rate each and every product.
 - Correct toasts and messages accuracy that is mentioned in the testing section above.
+- Login via social media like insta, fb, etc.
 
 ### Acknowledgements and credits
 
