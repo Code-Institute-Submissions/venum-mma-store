@@ -77,7 +77,7 @@ Lato and sans-serif were used for the typography of the project.
 
 **Wireframes**
 
-These can be found in the static/wireframes folder of this project.
+These can be found in the media/wireframes folder of this project.
 
 ## Features
 
@@ -287,14 +287,14 @@ All requirements to run and execute project are included in requirements.txt. If
 
 The following variables were added to GITPOD's settings as well as the config vars in heroku settings. These details are not provided for public view.
 
-SECRET_KEY
-STRIPE_PUBLIC_KEY
-STRIPE_SECRET_KEY
-STRIPE_WH_SECRET
-DATABASE_URL  
-ADMINS_EMAIL
-EMAIL_HOST_PASS
-EMAIL_HOST_USER
+- SECRET_KEY
+- STRIPE_PUBLIC_KEY
+- STRIPE_SECRET_KEY
+- STRIPE_WH_SECRET
+- DATABASE_URL  
+- ADMINS_EMAIL
+- EMAIL_HOST_PASS
+- EMAIL_HOST_USER
 
 **I took the following steps to remotely deploy my project on heroku:**
 - I created a Heroku app,  on Heroku.com. 
@@ -303,19 +303,19 @@ EMAIL_HOST_USER
 - I made sure my github profile was displayed when I pressed the Github connect to github button and wrote the repository's name before clicking search.
 - Once the repo was found I clicked connect.
 
-- Since I have  my environment variables in my gitpod settings, heroku won't be able to read them. So I had to tell heroku which vars are required:
+Since I have  my environment variables in my gitpod settings, heroku won't be able to read them. So I had to tell heroku which vars are required:
 
-SECRET_KEY - secret key used for your Django project
-STRIPE_PUBLIC_KEY - provided in Stripe account
-STRIPE_SECRET_KEY - provided in Stripe account
-STRIPE_WH_SECRET - provided in Stripe account
-DATABASE_URL  - Heroku Postgres database url
-ADMINS_EMAIL - Used this to hide the actual adress from the project. Any adress will work.
-AWS_ACCESS_KEY_ID - provided by amazons aws
-AWS_SECRET_ACCESS_KEY - provided by amazons aws
-EMAIL_HOST_PASS - created in Gmail using two-step authentication by creating an App password for a Django app in Gmail's Google Account Security page. Sends real emails.
-EMAIL_HOST_USER - created in Gmail using two-step authentication by creating an App password for a Django app Gmail's Google Account Security page. Sends real emails.
-USE_AWS - set to true
+- SECRET_KEY - secret key used for your Django project
+- STRIPE_PUBLIC_KEY - provided in Stripe account
+- STRIPE_SECRET_KEY - provided in Stripe account
+- STRIPE_WH_SECRET - provided in Stripe account
+- DATABASE_URL  - Heroku Postgres database url
+- ADMINS_EMAIL - Used this to hide the actual adress from the project. Any adress will work.
+- AWS_ACCESS_KEY_ID - provided by amazons aws
+- AWS_SECRET_ACCESS_KEY - provided by amazons aws
+- EMAIL_HOST_PASS - created in Gmail using two-step authentication by creating an App password for a Django app in Gmail's Google Account Security page. Sends real emails.
+- EMAIL_HOST_USER - created in Gmail using two-step authentication by creating an App password for a Django app Gmail's Google Account Security page. Sends real emails.
+- USE_AWS - set to true
 
 - I run following commands before deployment on my workspace's terminal:
 pip3 freeze –local > requirements.txt, this command will create a requirements file which is required by heroku to install requirements before deploying project.
@@ -324,7 +324,7 @@ echo web: python app.py > Procfile This will create a Procfile. The Procfile is 
 - I linked my Heroku app to my remote repository by running heroku git:remote -a venum-mma-store.
 - Last but not least I run git push heroku master.
 
-- Everything worked perfectly and the project was deployed and remotely updated every time I add and commit changes and run git push heroku.
+Everything worked perfectly and the project was deployed and remotely updated every time I add and commit changes and run git push heroku.
 
 ## Features not yet added
 
@@ -340,7 +340,7 @@ echo web: python app.py > Procfile This will create a Procfile. The Procfile is 
 - The images, prices, description used in the project were taken from Venum's official website. I do not own any of the right, I used them strictly for educational purposes.
 - Icons are all from font awesome while the font is from google fonts.
 - The events sponsored are fictional but the company that is supposedly sponsored is UFC.
-- I leard how a contact app works in [learndjango.com](https://learndjango.com/tutorials/django-email-contact-form). I added to the view and models in order to satisfy the projects requirements and also better serve the functionality of the site for both admin and customers. I also received lots of help on both Contact and events app on slack from fellow students and tutors.
-- Tutors Haley, Igor and Roman held my hand and helped me debug, deploy, set up aws, stripe, webhooks, get contact and admin apps to work and much more.
+- I leard how a contact app works in [learndjango.com](https://learndjango.com/tutorials/django-email-contact-form) and [overiq.com](https://overiq.com/django-1-10/building-contact-us-page/). I added to the a bit to views and models in order to satisfy the projects requirements and also better serve the functionality of the site for both admin and customers. I also received lots of help on both Contact and events app on slack from fellow students and tutors.
+- Tutors Haley, Igor and Roman held my hand and helped me debug, deploy, set up aws, stripe, webhooks, to get contact and events apps to work and much more.
 - Slack: My fellow students in Slack helped me debug and correct mistakes that are too many to mention in this readme: Anything from indentation, use of os variables like admins_email instead of the actual email adress in the code, to proper format of code and debuging of numerous E501 errors.
   **NOTE that I am in no way affiliated to either VENUM or UFC. This project is for educational purposes only and the store is a fictional business. All rights are reserved by VENUM.**
