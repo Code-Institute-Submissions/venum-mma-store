@@ -97,13 +97,15 @@ A nice opaque footer that contains three social media links that change colors o
 
 **My profile**
 Located at the top main navbar, this is a dropdown menu. If the user is not authenticated he/she will have the option to register or login. If the user is authenticated he/she will have the option to visit his/her profile, view info and order history, log out, or if the user is an admin, he/she will have the option to access the product management form to add a product.
-
+Moreover, upon registration a user gets an actual email of confirmation to the email adress provided. A user may also reset his/her password if needed.
+Upon registration, login, out, appropriate toasts are displayed as messages at the top of the screen.
 **Products**
 All product categories are located in the dropdown menu of the second navbar beneath the main top navbar. A user many visit any category to view the products within it, sort it by name, price, rating, etc. The user sees the products in rows and the image as well as the name, category and rating is displayed. By clicking on a given product the user opens the individual product detail page.
 
 **Product detail page**
 
 This page pops up when a user clicks on a product. This pages includes more details about the product such as description, sizes, price and enables the user to add the product to the wishlist or the bag for purchase.
+Appropriate toast messages are displayed every time a user adds, updates or deletes a product to/from wishlist.
 
 **Wishlist**
 
@@ -112,7 +114,7 @@ A user may add a given product here for later purchase. He/she may also update t
 **Bag**
 
 A user may add a given product here for purchase. He/she may also update the quentity or size, and even delete a product from the bag. Moreover, the user may procede to purchase the contentsof the bag by clicking on checkout which forwards the user to the checkout page.
-
+Appropriate toast messages are displayed every time a user adds, updates or deletes a product to/from bag.
 **Checkout**
 
 Here the user may input his/her card and personal info in order to procede with the purchase. If the user is authenticated or a returning user the info may be stored and called on click. At the moment in order to make a purchase one has to input stripe's test card number.
@@ -121,6 +123,8 @@ Here the user may input his/her card and personal info in order to procede with 
 -Exparation Date: random date in the future.
 -Address: random adress.
 
+- After checking out the user gets a display of the confirmation of the order and also an email formirming the purchase. The user may also view this aswell as other orders he/she has made in his/her profile.
+
 **Events**
 
 The MMA events that VENUM sponsors are displayed here. The user may click on the buy tickets to be redirected to the ticket seller.
@@ -128,6 +132,7 @@ The MMA events that VENUM sponsors are displayed here. The user may click on the
 **Contact**
 
 The user, authenticated or not may contact the store by filling the form with mail, name and message and the mail will be saved to the database to be view later by the admin through the admin panel. All messages are stored in the admin panel under "Contacts". Also an email is sent to the admin's email letting him/her know that they got a new message.
+After submitting the form a user is redirected to a page where he/she is thanked for contacting the store and is assured that the store will be in touch with him/her.
 
 ## Defensive Design
 
