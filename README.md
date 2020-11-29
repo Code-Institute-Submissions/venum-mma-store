@@ -333,6 +333,14 @@ echo web: python app.py > Procfile This will create a Procfile. The Procfile is 
 
 Everything worked perfectly and the project was deployed and remotely updated every time I add and commit changes and run git push heroku.
 
+**AWS**
+
+All static and media files were deployed manually using amazon's aws and S3 bucket.
+
+**Stripe payments and webhooks**
+
+Stripe payments and webhooks were implemented by created a free account and using the respective keys given by stripe.
+
 ## Features not yet added
 
 - Make wishlist persistent after logout, currently it persists if session is closed but not if user logs out and relogs.
