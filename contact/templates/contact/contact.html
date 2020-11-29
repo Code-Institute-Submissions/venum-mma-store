@@ -5,24 +5,24 @@
 
 {% block content %}
 <div class="container">
-   <div class="row card-row">
-      <div class="col-12">
-         <div class="card user-card">
-            <div class="card-header" id="main-content">
-               <h2>Contact Us </h2>
-            </div>
-            <div class="card-body">
-               <p>Got a question? Feel free to contact venum mma store with the form below.</p>
-               <form action="{% url 'contact' %}" method="POST">
-                  {% csrf_token %}
-                  <div class="form-group">
-                     {{ form|crispy }}
-                  </div>
-                  <input type="submit" value="Submit" class="btn btn-lg btn-black col-12">
-               </form>
-            </div>
-         </div>
-      </div>
-    </div>
+	<div class="row card-row">
+		<div class="col-12">
+			<div class="card user-card">
+				<div class="card-header" id="main-content">
+					<h2>Contact Us </h2>
+				</div>
+				<div class="card-body">
+					<p>Feel free to contact venum mma store with the form below.</p>
+					<form action="{% url 'contact' %}" method="POST">
+						{% csrf_token %}
+						<div class="form-group">
+							{{ form|crispy }}
+						</div>
+						<input type="submit" value="Submit" class="btn btn-lg btn-black col-12">
+          </form>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 {% endblock %}
