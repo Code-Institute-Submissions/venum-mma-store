@@ -7,10 +7,10 @@ Milestone Project #4 : Full Stack Development Milestone Project - Code Institute
 
 Venum MMA Store was designed and created to enable people who find an interest in Combative Arts and would like to be equiped with the best fighting gear in the world, VENUM!
 To make a purchase one has to use the test credit card number provided by stripe:
--Card number: 4242 4242 4242 4242
--CVC: any 3 digit number
--Exparation Date: random date in the future.
--Address: random adress.
+- Card number: 4242 4242 4242 4242
+- CVC: any 3 digit number
+- Exparation Date: random date in the future.
+- Address: random adress.
 
 Admin login info may be provided on request at nikolasdrosatos@gmail.com
 
@@ -96,10 +96,13 @@ The home page is the first page the customer lands in upon visiting our store. I
 A nice opaque footer that contains three social media links that change colors on hover, is at the bottom of all pages, to promote Venum's social media and keep the customer in touch.
 
 **My profile**
+
 Located at the top main navbar, this is a dropdown menu. If the user is not authenticated he/she will have the option to register or login. If the user is authenticated he/she will have the option to visit his/her profile, view info and order history, log out, or if the user is an admin, he/she will have the option to access the product management form to add a product.
 Moreover, upon registration a user gets an actual email of confirmation to the email adress provided. A user may also reset his/her password if needed.
 Upon registration, login, out, appropriate toasts are displayed as messages at the top of the screen.
+
 **Products**
+
 All product categories are located in the dropdown menu of the second navbar beneath the main top navbar. A user many visit any category to view the products within it, sort it by name, price, rating, etc. The user sees the products in rows and the image as well as the name, category and rating is displayed. By clicking on a given product the user opens the individual product detail page.
 
 **Product detail page**
@@ -118,12 +121,12 @@ Appropriate toast messages are displayed every time a user adds, updates or dele
 **Checkout**
 
 Here the user may input his/her card and personal info in order to procede with the purchase. If the user is authenticated or a returning user the info may be stored and called on click. At the moment in order to make a purchase one has to input stripe's test card number.
--Card number: 4242 4242 4242 4242
--CVC: any 3 digit number
--Exparation Date: random date in the future.
--Address: random adress.
+- Card number: 4242 4242 4242 4242
+- CVC: any 3 digit number
+- Exparation Date: random date in the future.
+- Address: random adress.
 
-- After checking out the user gets a display of the confirmation of the order and also an email formirming the purchase. The user may also view this aswell as other orders he/she has made in his/her profile.
+- After checking out the user gets a display of the confirmation of the order and also an email confirming the purchase. The user may also view this aswell as other orders he/she has made in his/her profile.
 
 **Events**
 
@@ -176,7 +179,7 @@ Moreover he/she may add, edit and delete events both through the admin panel. Me
 | First Name | first_name | CharField     | max_length=200                            |
 | Last name  | last_name  | CharField     | max_length=200                            |
 | From email | from_email | CharField     | max_length=200                            |
-| Subject    | Subject    | CharField     | max_length=200                            |
+| Subject    | subject    | CharField     | max_length=200                            |
 | Message    | message    | TextField     | max_length=5000                           |
 | Date       | date       | DateTimeField | default=datetime.now, blank=True          |
 | User       | query_user | ForeignKey    | User, null=True, on_delete=models.CASCADE |
@@ -254,6 +257,10 @@ Moreover he/she may add, edit and delete events both through the admin panel. Me
 - I have also tested webhooks and stripe payments using the test credit card info provided by stripe and it works perfectly.
 - I have run the python3 -m flake8 in order to view all problems of the project in a single list. I had two types pop up: E501 line too long and DJ01. As far as E501 goes I have corrected the ones that are possible to be corrected. In some cases it's just not possible to fix the line too long issues. If I was to break that line up for example it would break the variable. The DJ01 ones I ignored as instructed by the tutors.
 
+**Stripe payments and webhooks**
+
+Both were tested and work properly. Payments go through and webhooks are connected and sent properly. Stripe in login info may be provided on request if one wishes to confirm they are working.
+
 ## Validation
 
 - HTML: All html code was validated at https://validator.w3.org/ .
@@ -285,7 +292,7 @@ All requirements to run and execute project are included in requirements.txt. If
 
 **Variables**
 
-The following variables were added to GITPOD's settings as well as the config vars in heroku settings. These details are not provided for public view.
+The following variables were added to GITPOD's settings as well as the config vars in heroku settings. These details are not provided for public view but may be provided on request.
 
 - SECRET_KEY
 - STRIPE_PUBLIC_KEY
